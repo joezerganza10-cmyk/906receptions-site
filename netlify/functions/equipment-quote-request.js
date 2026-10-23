@@ -124,6 +124,7 @@ function validatePayload(payload){
   const comments = longText(payload.comments, MAX_LONG);
   const deliveryMode = payload.deliveryMode === 'livraison' ? 'livraison' : 'ramassage';
   const source = singleLine(payload.source, MAX_SHORT) || 'Landing /catalogue — 906 Réceptions';
+  const wantsDecoration = payload.wantsDecoration === true;
 
   if (!name) return { ok:false, message: 'Le nom est requis.' };
   if (!email || !EMAIL_RE.test(email)) return { ok:false, message: 'Une adresse courriel valide est requise.' };
@@ -188,7 +189,7 @@ function validatePayload(payload){
 
   return {
     ok: true,
-    clean: { name, email, phone, eventType, eventDate, comments, deliveryMode, deliveryInfo, items, source },
+    clean: { name, email, phone, eventType, eventDate, comments, deliveryMode, deliveryInfo, items, source, wantsDecoration },
   };
 }
 
@@ -341,6 +342,7 @@ function buildAdminEmailHtml(p, quoteRef, submittedAt, pricedItems, subtotalCent
       ${row('Courriel', p.email)}
       ${row("Type d'événement", p.eventType)}
       ${row("Date de l'événement", p.eventDate)}
+      ${row("Décoration souhaitée ?", p.wantsDecoration ? 'Oui — à contacter pour une proposition' : 'Non')}
     </table>
     <h3 style="font-size:14px;margin-top:22px;border-bottom:1px solid #e5e0d3;padding-bottom:8px">Équipements demandés</h3>
     ${buildItemsHtml(pricedItems)}

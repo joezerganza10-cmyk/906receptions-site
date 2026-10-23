@@ -4,8 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>906 Réceptions — Location d'équipements & décoration événementielle à Sherbrooke</title>
-<meta name="description" content="906 Réceptions : location de chaises, tables, microphones et sonorisation, ainsi que décoration événementielle personnalisée, pour vos événements à Sherbrooke et en Estrie — où que vous receviez.">
+<meta name="description" content="906 Réceptions : location de chaises, tables et sonorisation, ainsi que décoration événementielle personnalisée, pour vos événements à Sherbrooke et en Estrie — où que vous receviez.">
 <link rel="canonical" href="https://906receptions.ca/">
+<link rel="icon" type="image/png" href="logo-906-receptions.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="906 Réceptions | Location d'équipements & décoration événementielle">
 <meta property="og:description" content="Chaises, tables, sonorisation et décoration événementielle pour particuliers, entreprises, organismes et églises — dans le lieu de votre choix.">
@@ -15,7 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="image" href="table-ronde-nappe-noire.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -33,368 +34,302 @@
 <style>
 html,body{margin:0;padding:0;scroll-behavior:smooth}
 *{box-sizing:border-box}
-::selection{background:#c9a463;color:#16140f}
+::selection{background:#BE9B52;color:#fff}
 :root{
-  --ink:#16140f; --ink-2:#1b1913; --ink-3:#0f0e0a; --gold:#c9a463; --gold-hover:#dcbd82;
-  --cream:#f6f2ea; --cream-2:#efe8db; --cream-3:#e6ddc8;
-  --text-muted:#cfc9bd; --text-dim:#a49e8f; --text-faint:#8a8474;
-  --line:rgba(201,164,99,.18); --ink-on-cream:#1c1912; --muted-on-cream:#63594a; --faint-on-cream:#8d8268;
+  --ivory:#FAF7F0; --ivory-2:#F2ECDE; --white:#FFFFFF;
+  --anthracite:#2A2825; --anthracite-soft:#635E54; --anthracite-faint:#9A9387;
+  --gold:#B38A3F; --gold-soft:#D9BE86; --gold-deep:#8C6A2B;
+  --line:rgba(42,40,37,.13); --line-soft:rgba(42,40,37,.07);
 }
-body{font-family:'Jost',sans-serif;background:var(--ink);color:var(--cream);overflow-x:hidden}
+body{font-family:'Jost',sans-serif;background:var(--ivory);color:var(--anthracite);overflow-x:hidden}
 a{color:inherit}
 img{max-width:100%}
-h1,h2,h3{font-family:'Playfair Display',serif;font-weight:500;margin:0;text-wrap:balance}
-.eyebrow{font-size:12.5px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;font-weight:500}
-.btn{display:inline-flex;align-items:center;gap:8px;cursor:pointer;text-decoration:none;background:var(--gold);color:var(--ink);padding:16px 32px;font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase;border-radius:3px;border:none;font-family:'Jost',sans-serif;font-weight:500;transition:background .25s,box-shadow .25s,transform .25s}
-.btn:hover{background:var(--gold-hover);box-shadow:0 14px 30px rgba(201,164,99,.3);transform:translateY(-1px)}
-.btn-outline{display:inline-flex;align-items:center;gap:8px;text-decoration:none;border:1px solid rgba(246,242,234,.35);color:var(--cream);padding:16px 32px;font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase;border-radius:3px;transition:border-color .25s,color .25s,background .25s;background:none;cursor:pointer;font-family:'Jost',sans-serif;font-weight:500}
-.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
-.btn-outline.on-cream{border-color:rgba(28,25,18,.3);color:var(--ink-on-cream)}
-.btn-outline.on-cream:hover{border-color:var(--ink-on-cream);background:var(--ink-on-cream);color:var(--cream)}
-.btn-sm{padding:10px 18px;font-size:11.5px}
-.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+h1,h2,h3{font-family:'Playfair Display',serif;font-weight:600;margin:0;text-wrap:balance;color:var(--anthracite)}
+.eyebrow{font-size:11.5px;letter-spacing:2.6px;text-transform:uppercase;color:var(--gold-deep);margin-bottom:10px;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;text-decoration:none;background:var(--anthracite);color:var(--ivory);padding:14px 26px;font-size:13px;letter-spacing:.3px;border-radius:7px;border:none;font-family:'Jost',sans-serif;font-weight:600;transition:background .2s,transform .15s}
+.btn:hover{background:var(--gold-deep);transform:translateY(-1px)}
+.btn-gold{background:var(--gold);color:var(--anthracite)}
+.btn-gold:hover{background:var(--gold-soft)}
+.btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border:1.5px solid var(--anthracite);color:var(--anthracite);padding:12.5px 24px;font-size:13px;letter-spacing:.3px;border-radius:7px;background:none;cursor:pointer;font-family:'Jost',sans-serif;font-weight:600;transition:all .2s}
+.btn-outline:hover{background:var(--anthracite);color:var(--ivory)}
+.btn-outline.on-white{border-color:rgba(250,247,240,.6);color:var(--ivory)}
+.btn-outline.on-white:hover{background:var(--ivory);color:var(--anthracite)}
+.btn-sm{padding:9px 16px;font-size:12px}
+
+/* ---- Nav (identique au catalogue) ---- */
+nav{position:sticky;top:0;z-index:200;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 clamp(18px,4vw,48px);height:68px;background:rgba(250,247,240,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.logo-link{display:flex;align-items:center;flex:0 0 auto}
+.logo-link img{height:44px;width:auto;display:block}
+.nav-center{display:none;gap:clamp(18px,2.4vw,36px);font-size:13.5px;font-weight:500}
+.nav-center a{text-decoration:none;color:var(--anthracite-soft);padding-bottom:3px;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.nav-center a:hover,.nav-center a.is-current{color:var(--anthracite);border-color:var(--gold)}
+.nav-right{display:flex;align-items:center;gap:10px}
+.cart-btn{position:relative;display:inline-flex;align-items:center;gap:8px;background:var(--anthracite);color:var(--ivory);border:none;border-radius:999px;padding:9px 16px 9px 14px;font-size:12.5px;font-weight:600;cursor:pointer;font-family:'Jost',sans-serif}
+.cart-btn .count{background:var(--gold);color:var(--anthracite);border-radius:999px;min-width:19px;height:19px;padding:0 5px;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700}
+.menu-toggle{display:flex;align-items:center;justify-content:center;width:40px;height:40px;background:none;border:1px solid var(--line);border-radius:7px;cursor:pointer;color:var(--anthracite)}
+@media (min-width:900px){ .nav-center{display:flex} .menu-toggle{display:none} }
+.mobile-menu{position:fixed;inset:68px 0 0 0;z-index:190;background:var(--ivory);display:none;flex-direction:column;padding:28px clamp(18px,4vw,48px);gap:4px;overflow-y:auto}
+.mobile-menu.is-open{display:flex}
+.mobile-menu a{text-decoration:none;color:var(--anthracite);font-family:'Playfair Display',serif;font-size:26px;padding:14px 0;border-bottom:1px solid var(--line-soft)}
+@media (min-width:900px){ .mobile-menu{display:none!important} }
+
+section{padding:72px clamp(18px,4vw,48px)}
+.section-head{text-align:center;max-width:620px;margin:0 auto 44px}
+.section-head p{color:var(--anthracite-soft);font-size:14.5px;line-height:1.65;margin-top:12px}
+.section-head h2{font-size:clamp(25px,3.2vw,34px)}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
 .reveal.is-visible{opacity:1;transform:none}
-.reveal-delay-1.is-visible{transition-delay:.12s}
-.reveal-delay-2.is-visible{transition-delay:.24s}
+.reveal-delay-1.is-visible{transition-delay:.1s}
+.reveal-delay-2.is-visible{transition-delay:.2s}
 @media (prefers-reduced-motion:reduce){ .reveal{opacity:1!important;transform:none!important;transition:none!important} html{scroll-behavior:auto} }
-nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px clamp(20px,5vw,64px);background:rgba(22,20,15,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);flex-wrap:wrap}
-.logo{font-family:'Playfair Display',serif;font-size:21px;text-decoration:none;letter-spacing:.2px}
-.logo b{color:var(--gold);font-style:italic;font-weight:500}
-nav .links{display:flex;gap:clamp(10px,2vw,30px);flex-wrap:wrap;font-size:12.5px}
-nav .links a{text-decoration:none;color:var(--text-muted);border-bottom:1px solid transparent;padding-bottom:3px;letter-spacing:.2px}
-nav .links a:hover,nav .links a.is-current{color:var(--gold);border-color:var(--gold)}
-.hero{position:relative;background:var(--ink)}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.02fr);align-items:stretch;min-height:min(80vh,720px)}
-.hero-copy{position:relative;z-index:2;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:52px clamp(24px,6vw,72px);max-width:580px}
-.hero-copy h1{font-size:clamp(30px,3.8vw,46px);line-height:1.1;letter-spacing:-.3px}
-.hero-copy p.lead{font-size:clamp(15px,1.5vw,17px);color:var(--text-muted);line-height:1.6;max-width:460px;margin:0}
-.hero-copy .ctas{display:flex;gap:16px;flex-wrap:wrap;margin-top:6px}
-.hero-media{position:relative;min-height:420px;overflow:hidden;background:linear-gradient(145deg,#231f17 0%,#16140f 55%,#1b1710 100%)}
-.hero-carousel{position:absolute;inset:-2px -2px -2px 0;clip-path:polygon(16% 0,100% 0,100% 100%,0 100%);overflow:hidden}
-.hc-slide{position:absolute;inset:0;background-color:#1f1b12;background-repeat:no-repeat;background-position:center;background-size:cover;opacity:0;transition:opacity .9s ease}
-.hc-slide.is-active{opacity:1}
-.hc-overlay{position:absolute;inset:0;z-index:1;pointer-events:none;clip-path:polygon(16% 0,100% 0,100% 100%,0 100%);background:linear-gradient(100deg,rgba(22,20,15,.5) 0%,rgba(22,20,15,0) 34%),linear-gradient(0deg,rgba(22,20,15,.35),rgba(22,20,15,0) 30%)}
-.hero-media .edge{position:absolute;top:0;bottom:0;left:16%;width:2px;background:linear-gradient(180deg,var(--gold),transparent 70%);opacity:.65;transform:skewX(-7.5deg);transform-origin:top;z-index:2}
-.hc-dots{position:absolute;left:calc(16% + 18px);bottom:24px;z-index:3;display:flex;gap:10px}
-.hc-dot{width:9px;height:9px;border-radius:50%;border:1px solid rgba(246,242,234,.55);background:rgba(246,242,234,.15);padding:0;cursor:pointer;transition:background .25s,border-color .25s,transform .25s;appearance:none}
-.hc-dot:hover{border-color:var(--gold)}
-.hc-dot.is-active{background:var(--gold);border-color:var(--gold);transform:scale(1.2)}
-@media (prefers-reduced-motion:reduce){ .hc-slide{transition:none} }
-@media (max-width:900px){
-  .hero-grid{grid-template-columns:1fr;min-height:0}
-  .hero-media{order:-1;min-height:56vw;max-height:440px}
-  .hero-carousel{clip-path:none;inset:0}
-  .hc-overlay{clip-path:none;background:linear-gradient(0deg,var(--ink) 0%,rgba(22,20,15,0) 40%)}
-  .hero-media .edge{display:none}
-  .hc-dots{left:50%;transform:translateX(-50%);bottom:16px}
-  .hero-copy{padding:40px clamp(20px,6vw,40px) 52px;max-width:none}
-}
-section{padding:88px clamp(20px,5vw,64px)}
-.on-cream{background:var(--cream);color:var(--ink-on-cream)}
-.on-cream .eyebrow{color:#a9793d}
-.on-cream p{color:var(--muted-on-cream)}
-.on-ink2{background:var(--ink-2)}
-.section-head{text-align:center;max-width:640px;margin:0 auto 56px}
-.section-head p{color:var(--text-dim);font-size:15px;line-height:1.65;margin-top:14px}
-.on-cream .section-head p{color:var(--muted-on-cream)}
-.section-head h2{font-size:clamp(27px,3.6vw,40px)}
-.intro-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(30px,5vw,64px);align-items:center;max-width:1180px;margin:0 auto}
-.intro-text h2{font-size:clamp(28px,3.8vw,42px);line-height:1.14}
-.intro-text p{margin-top:20px;font-size:16px;line-height:1.75;color:var(--muted-on-cream);max-width:440px}
-.intro-photos{position:relative;min-height:420px}
-.intro-photo-main{width:84%;aspect-ratio:4/5;background-color:#d8cdb3;background-image:url('chaise-napoleon-blanche.webp');background-position:center;background-size:cover;border-radius:2px;box-shadow:0 30px 60px -20px rgba(28,25,18,.35)}
-.intro-photo-accent{position:absolute;right:0;bottom:-36px;width:48%;aspect-ratio:5/4;background-color:#1f1b12;background-image:url('table-rectangulaire-pliante.jpg');background-position:center;background-size:cover;border-radius:2px;border:7px solid var(--cream);box-shadow:0 24px 50px -18px rgba(28,25,18,.4)}
-@media (max-width:860px){
-  .intro-grid{grid-template-columns:1fr}
-  .intro-photos{min-height:0;margin-top:8px}
-  .intro-photo-main{width:100%}
-  .intro-photo-accent{position:relative;right:auto;bottom:auto;width:62%;margin:-40px 0 0 auto}
-}
-.cat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;max-width:1200px;margin:0 auto}
-.cat-card{appearance:none;background:var(--ink-2);border:1px solid var(--line);border-radius:3px;padding:0;cursor:pointer;text-align:left;font-family:'Jost',sans-serif;color:var(--cream);display:flex;flex-direction:column;overflow:hidden;transition:border-color .25s,transform .25s;text-decoration:none}
-.cat-card:hover{border-color:var(--gold);transform:translateY(-4px)}
-.cat-icon-panel{display:flex;align-items:center;justify-content:center;width:100%;aspect-ratio:5/4;background:radial-gradient(120% 140% at 20% 15%,#2a2419 0%,#1b1712 55%,#16140f 100%)}
-.cat-icon-panel svg{width:34%;height:34%;stroke:var(--gold);opacity:.9}
-.cat-photo-panel{display:block;width:100%;aspect-ratio:5/4;background-color:#231f17;background-size:cover;background-position:center;filter:saturate(.95)}
-.cat-body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex-grow:1}
-.cat-title{font-family:'Playfair Display',serif;font-size:18.5px}
-.cat-desc{font-size:13px;color:var(--text-dim);line-height:1.6;flex-grow:1}
-.cat-link{font-size:11.5px;letter-spacing:.6px;text-transform:uppercase;color:var(--gold);margin-top:4px}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:rgba(246,242,234,0.1);max-width:1080px;margin:0 auto}
-.steps>div{background:var(--ink-2);padding:34px 26px;position:relative}
-.step-num{font-family:'Playfair Display',serif;font-size:34px;color:var(--gold);line-height:1;margin-bottom:14px;opacity:.85}
-.steps h4{font-size:16.5px;margin:0 0 10px}
-.steps p{font-size:13.5px;color:var(--text-dim);line-height:1.6;margin:0}
-.logi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;max-width:1100px;margin:0 auto}
-.logi-card{background:var(--cream-2);border:1px solid rgba(28,25,18,.08);border-radius:3px;padding:34px 30px;text-align:center}
-.logi-card .ic{width:40px;height:40px;margin:0 auto 18px;border:1px solid #a9793d;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#a9793d}
-.logi-card h3{font-size:18px;color:var(--ink-on-cream);margin-bottom:10px;font-family:'Playfair Display',serif;font-weight:500}
-.logi-card p{font-size:13.5px;line-height:1.65;color:var(--muted-on-cream);margin:0}
-.commercial{padding:0;background:var(--ink-2)}
-.commercial-grid{display:grid;grid-template-columns:1fr 1fr;min-height:560px}
-.commercial-copy{display:flex;flex-direction:column;justify-content:center;gap:22px;padding:70px clamp(24px,5vw,72px)}
-.commercial-copy h2{font-size:clamp(28px,3.6vw,42px);line-height:1.12}
-.commercial-copy p{font-size:15.5px;line-height:1.7;color:var(--text-muted);max-width:420px;margin:0}
-.commercial-photo{background-color:#1f1b12;background-image:url('table-ronde-nappe-noire.jpg');background-position:center;background-size:cover}
-@media (max-width:860px){
-  .commercial-grid{grid-template-columns:1fr}
-  .commercial-photo{min-height:46vw;order:-1}
-  .commercial-copy{padding:48px clamp(20px,6vw,40px)}
-}
-.faq{max-width:760px;margin:0 auto}
-details{border-bottom:1px solid rgba(201,164,99,0.2);padding:22px 0}
-summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;font-family:'Playfair Display',serif;font-size:18px}
+
+/* ---- Hero ---- */
+.hero{position:relative;min-height:calc(100vh - 68px);max-height:680px;display:flex;align-items:center;background:linear-gradient(180deg,rgba(42,40,37,.25) 0%,rgba(42,40,37,.62) 100%),url('table-ronde-nappe-noire.jpg');background-size:cover;background-position:center}
+.hero-inner{padding:0 clamp(18px,4vw,48px);max-width:720px;color:var(--ivory)}
+.hero .eyebrow{color:var(--gold-soft)}
+.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.1;color:var(--ivory)}
+.hero p.lead{font-size:clamp(14.5px,1.5vw,17px);color:rgba(250,247,240,.88);line-height:1.6;max-width:480px;margin:16px 0 0}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+
+/* ---- Catégories ---- */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;max-width:1140px;margin:0 auto}
+.cat-card{display:flex;flex-direction:column;text-decoration:none;background:var(--white);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.cat-card:hover{transform:translateY(-4px);box-shadow:0 18px 36px -16px rgba(42,40,37,.22)}
+.cat-photo{aspect-ratio:4/3;background-size:cover;background-position:center}
+.cat-body{padding:18px 20px 22px}
+.cat-title{font-family:'Playfair Display',serif;font-size:18px;color:var(--anthracite)}
+.cat-link{display:block;margin-top:8px;font-size:12px;letter-spacing:.4px;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+
+/* ---- Produits (apercu) ---- */
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;max-width:1140px;margin:0 auto}
+.pcard{background:var(--white);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.pcard:hover{transform:translateY(-3px);box-shadow:0 16px 32px -14px rgba(42,40,37,.2)}
+.pcard-photo{position:relative;aspect-ratio:4/3;background:linear-gradient(145deg,#efe7d6,#e3d8c0)}
+.pcard-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.pcard-body{padding:16px 18px}
+.pcard-body h3{font-size:15.5px}
+.pcard-price{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;color:var(--gold-deep);margin-top:6px}
+.pcard-price small{display:block;font-family:'Jost',sans-serif;font-weight:400;font-size:10.5px;color:var(--anthracite-faint)}
+
+/* ---- Décoration teaser ---- */
+.deco-band{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--white);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.deco-band .photo{background-size:cover;background-position:center 30%;min-height:300px}
+.deco-band .copy{padding:clamp(28px,4vw,48px);display:flex;flex-direction:column;justify-content:center}
+.deco-band .copy p{font-size:14.5px;line-height:1.7;color:var(--anthracite-soft);margin:14px 0 24px}
+@media (max-width:760px){ .deco-band{grid-template-columns:1fr} .deco-band .photo{order:-1;min-height:220px} }
+
+/* ---- Comment louer : étapes ---- */
+.steps3{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;max-width:980px;margin:0 auto}
+.step3{text-align:center;padding:8px}
+.step3-num{width:46px;height:46px;border-radius:50%;background:var(--anthracite);color:var(--ivory);font-family:'Playfair Display',serif;font-size:18px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+.step3 h4{font-size:16px;margin-bottom:8px;font-family:'Playfair Display',serif;font-weight:600}
+.step3 p{font-size:13.5px;color:var(--anthracite-soft);line-height:1.6;margin:0}
+
+/* ---- Infos pratiques / FAQ ---- */
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;max-width:1000px;margin:0 auto 50px}
+.info-card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:26px 24px}
+.info-card h4{font-size:15.5px;font-family:'Playfair Display',serif;font-weight:600;margin-bottom:8px}
+.info-card p{font-size:13.5px;color:var(--anthracite-soft);line-height:1.65;margin:0}
+.faq{max-width:740px;margin:0 auto}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;font-family:'Playfair Display',serif;font-weight:600;font-size:16.5px}
 summary::-webkit-details-marker{display:none}
-summary::after{content:'+';color:var(--gold);font-size:22px}
+summary::after{content:'+';color:var(--gold-deep);font-size:20px}
 details[open] summary::after{content:'−'}
-details p{font-size:14px;color:var(--text-dim);line-height:1.7;margin:14px 0 0}
-.cta-block{text-align:center;background:var(--ink-2);border:1px solid rgba(201,164,99,0.2);padding:56px clamp(24px,5vw,60px);max-width:800px;margin:0 auto;border-radius:4px}
-.cta-block p{color:var(--text-dim);font-size:15px;margin:14px 0 30px}
-footer{padding:50px clamp(20px,5vw,64px);border-top:1px solid rgba(246,242,234,0.08);text-align:center;font-size:13px;color:var(--text-faint)}
-footer a{text-decoration:none;color:var(--text-dim);margin:0 10px}
-footer a:hover{color:var(--gold)}
+details p{font-size:13.5px;color:var(--anthracite-soft);line-height:1.7;margin:12px 0 0}
+
+footer{padding:44px clamp(18px,4vw,48px);border-top:1px solid var(--line);text-align:center;font-size:13px;color:var(--anthracite-faint);background:var(--white)}
+footer a{text-decoration:none;color:var(--anthracite-soft);margin:0 10px}
+footer a:hover{color:var(--gold-deep)}
 </style>
 </head>
 <body>
 <noscript>
-  <div style="font-family:sans-serif;background:#16140f;color:#f6f2ea;padding:32px;max-width:900px;margin:0 auto;line-height:1.6">
+  <div style="font-family:sans-serif;background:#FAF7F0;color:#2A2825;padding:32px;max-width:900px;margin:0 auto;line-height:1.6">
     <h1>906 Réceptions — Location d'équipements &amp; décoration événementielle à Sherbrooke</h1>
-    <p>Chaises, tables, microphones, haut-parleurs et décoration événementielle, pour particuliers, entreprises, organismes et églises — où que vous receviez.</p>
-    <p>Téléphone : <a href="tel:+18196789242" style="color:#c9a463">(819) 678-9242</a> — Courriel : <a href="mailto:reservations@salle906galtest.ca" style="color:#c9a463">reservations@salle906galtest.ca</a></p>
+    <p>Chaises, tables, sonorisation et décoration événementielle, pour particuliers, entreprises, organismes et églises — où que vous receviez.</p>
+    <p>Téléphone : <a href="tel:+18196789242">(819) 678-9242</a> — Courriel : <a href="mailto:reservations@salle906galtest.ca">reservations@salle906galtest.ca</a></p>
   </div>
 </noscript>
 
 <nav>
-  <a class="logo" href="/">906 <b>Réceptions</b></a>
-  <div class="links">
-    <a href="/" class="is-current">Accueil</a>
-    <a href="/catalogue">Location d'équipements</a>
+  <a class="logo-link" href="/"><img src="logo-906-receptions.png" alt="906 Réceptions"></a>
+  <div class="nav-center">
+    <a href="/catalogue" class="is-current">Catalogue</a>
     <a href="/decoration">Décoration</a>
-    <a href="/realisations">Réalisations</a>
+    <a href="#comment-louer">Comment louer</a>
     <a href="/contact">Contact</a>
   </div>
-  <a class="btn-outline btn-sm" href="/catalogue#demande-soumission">Demander une soumission</a>
+  <div class="nav-right">
+    <a class="cart-btn" href="/catalogue#panier">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.2"/><circle cx="18" cy="20" r="1.2"/><path d="M6 6L5 2H2"/></svg>
+      Ma soumission <span class="count" id="cart-count">0</span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
 </nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="/catalogue">Catalogue</a>
+  <a href="/decoration">Décoration</a>
+  <a href="#comment-louer">Comment louer</a>
+  <a href="/contact">Contact</a>
+</div>
 
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero-grid">
-    <div class="hero-copy">
-      <div class="eyebrow">906 Réceptions · Sherbrooke &amp; Estrie</div>
-      <h1>Votre événement,<br>dans le lieu de votre choix.</h1>
-      <p class="lead">Location de chaises, tables, microphones et sonorisation, et décoration événementielle personnalisée — pour particuliers, entreprises, organismes et églises.</p>
-      <div class="ctas">
-        <a class="btn" href="/catalogue">Explorer le catalogue</a>
-        <a class="btn-outline" href="/decoration">Décoration événementielle</a>
-      </div>
-    </div>
-    <div class="hero-media">
-      <div class="hero-carousel" id="hero-carousel" role="group" aria-roledescription="carrousel" aria-label="Photographies 906 Réceptions">
-        <div class="hc-slide is-active" data-slide="0" style="background-image:url('table-ronde-nappe-noire.jpg')" role="img" aria-label="Table ronde avec nappe noire"></div>
-        <div class="hc-slide" data-slide="1" style="background-image:url('chaise-napoleon-blanche.webp')" role="img" aria-label="Chaise Napoléon blanche"></div>
-        <div class="hc-slide" data-slide="2" style="background-image:url('haut-parleur-sur-pied.jpg');background-position:center 10%" role="img" aria-label="Haut-parleur sur pied"></div>
-      </div>
-      <div class="hc-overlay"></div>
-      <div class="edge"></div>
-      <div class="hc-dots" id="hero-carousel-dots" role="tablist" aria-label="Choisir une photographie"></div>
+<!-- ============ BANNIÈRE D'ACCUEIL ============ -->
+<section class="hero" style="padding:0">
+  <div class="hero-inner">
+    <div class="eyebrow">906 Réceptions · Sherbrooke &amp; Estrie</div>
+    <h1>Tout pour recevoir avec style.</h1>
+    <p class="lead">Location de chaises, tables et sonorisation, et décoration événementielle à Sherbrooke.</p>
+    <div class="ctas">
+      <a class="btn btn-gold" href="/catalogue">Explorer le catalogue</a>
+      <a class="btn-outline on-white" href="/decoration">Parlons de votre décor</a>
     </div>
   </div>
 </section>
 
-<!-- ============ INTRO ÉDITORIALE ============ -->
-<section class="on-cream">
-  <div class="intro-grid">
-    <div class="intro-text reveal">
-      <div class="eyebrow">906 Réceptions</div>
-      <h2>Le matériel et la mise en scène de votre événement.</h2>
-      <p>906 Réceptions réunit la location d'équipements événementiels et un service de décoration sur mesure — chez vous, dans une salle louée, ou tout autre lieu que vous avez choisi pour votre événement.</p>
-      <div style="margin-top:28px;display:flex;gap:14px;flex-wrap:wrap">
-        <a class="btn-outline on-cream" href="/catalogue">Voir le catalogue</a>
-        <a class="btn-outline on-cream" href="/decoration">Voir la décoration</a>
-      </div>
-    </div>
-    <div class="intro-photos reveal reveal-delay-1">
-      <div class="intro-photo-main"></div>
-      <div class="intro-photo-accent"></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ NOS SERVICES ============ -->
-<section id="services">
+<!-- ============ CATÉGORIES VISUELLES ============ -->
+<section>
   <div class="section-head reveal">
-    <div class="eyebrow">Nos services</div>
-    <h2>Deux façons de réussir votre événement</h2>
-    <p>Louez le matériel dont vous avez besoin, confiez-nous la mise en scène, ou les deux.</p>
+    <div class="eyebrow">Catégories</div>
+    <h2>Explorez par type d'équipement</h2>
   </div>
   <div class="cat-grid">
-    <a class="cat-card reveal" href="/catalogue">
-      <span class="cat-photo-panel" style="background-image:url('table-ronde-nappe-noire.jpg')"></span>
-      <span class="cat-body">
-        <span class="cat-title">Location d'équipements</span>
-        <span class="cat-desc">Chaises, tables, microphones et haut-parleurs, à la journée. Ramassage sur place ou livraison selon disponibilité.</span>
-        <span class="cat-link">Voir le catalogue →</span>
-      </span>
+    <a class="cat-card reveal" href="/catalogue?cat=chaises">
+      <div class="cat-photo" style="background-image:url('chaise-napoleon-blanche.webp')"></div>
+      <div class="cat-body"><div class="cat-title">Chaises</div><span class="cat-link">Voir les modèles →</span></div>
     </a>
-    <a class="cat-card reveal reveal-delay-1" href="/decoration">
-      <span class="cat-photo-panel" style="background-image:url('table-rectangulaire-pliante.jpg')"></span>
-      <span class="cat-body">
-        <span class="cat-title">Décoration événementielle</span>
-        <span class="cat-desc">Une mise en scène personnalisée, adaptée à votre type d'événement, votre lieu et votre budget.</span>
-        <span class="cat-link">Demander une proposition →</span>
-      </span>
+    <a class="cat-card reveal reveal-delay-1" href="/catalogue?cat=tables">
+      <div class="cat-photo" style="background-image:url('table-ronde-nappe-noire.jpg')"></div>
+      <div class="cat-body"><div class="cat-title">Tables</div><span class="cat-link">Voir les modèles →</span></div>
+    </a>
+    <a class="cat-card reveal reveal-delay-2" href="/catalogue?cat=sonorisation">
+      <div class="cat-photo" style="background-image:url('haut-parleur-sur-pied.jpg');background-position:center 10%"></div>
+      <div class="cat-body"><div class="cat-title">Sonorisation</div><span class="cat-link">Voir les modèles →</span></div>
     </a>
   </div>
 </section>
 
-<!-- ============ COMMENT ÇA FONCTIONNE ============ -->
-<section id="comment-ca-fonctionne" class="on-ink2">
+<!-- ============ SÉLECTION DU CATALOGUE ============ -->
+<section class="on-white" style="background:var(--ivory-2)">
+  <div class="section-head reveal">
+    <div class="eyebrow">Catalogue</div>
+    <h2>Quelques équipements disponibles</h2>
+    <p>Tarifs réels, par jour. Le catalogue complet, avec recherche et filtres, se trouve sur la page Catalogue.</p>
+  </div>
+  <div class="pgrid" id="preview-grid"></div>
+  <div style="text-align:center;margin-top:36px">
+    <a class="btn" href="/catalogue">Voir tout le catalogue</a>
+  </div>
+</section>
+
+<!-- ============ DÉCORATION ÉVÉNEMENTIELLE ============ -->
+<section>
+  <div class="deco-band reveal">
+    <div class="photo" style="background-image:url('table-rectangulaire-pliante.jpg')"></div>
+    <div class="copy">
+      <div class="eyebrow">Décoration événementielle</div>
+      <h2 style="font-size:clamp(23px,3vw,30px)">Une mise en scène pensée pour vous.</h2>
+      <p>Décrivez votre événement, votre lieu et vos envies — notre équipe prépare une proposition de décoration personnalisée, adaptée à votre budget.</p>
+      <div><a class="btn btn-gold" href="/decoration">Demander une proposition</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMENT LOUER ============ -->
+<section id="comment-louer" style="background:var(--ivory-2)">
   <div class="section-head reveal">
     <div class="eyebrow">Le processus</div>
-    <h2>Comment ça fonctionne</h2>
+    <h2>Comment louer</h2>
   </div>
-  <div class="steps">
-    <div class="reveal"><div class="step-num">01</div><h4>Explorez nos services</h4><p>Parcourez le catalogue d'équipements ou décrivez votre projet de décoration.</p></div>
-    <div class="reveal reveal-delay-1"><div class="step-num">02</div><h4>Envoyez votre demande</h4><p>Équipements, dates, lieu de l'événement — ou votre vision pour la décoration.</p></div>
-    <div class="reveal reveal-delay-2"><div class="step-num">03</div><h4>Recevez votre soumission</h4><p>Notre équipe vérifie la disponibilité réelle et vous propose un prix précis.</p></div>
-    <div class="reveal"><div class="step-num">04</div><h4>Confirmez votre événement</h4><p>Vous confirmez, nous préparons tout pour le jour J — dans le lieu de votre choix.</p></div>
+  <div class="steps3">
+    <div class="step3 reveal"><div class="step3-num">1</div><h4>Sélectionnez vos équipements</h4><p>Parcourez le catalogue et ajoutez vos articles à votre demande.</p></div>
+    <div class="step3 reveal reveal-delay-1"><div class="step3-num">2</div><h4>Envoyez votre demande</h4><p>Vos dates, votre lieu et vos coordonnées — en quelques minutes.</p></div>
+    <div class="step3 reveal reveal-delay-2"><div class="step3-num">3</div><h4>Recevez votre soumission</h4><p>Après vérification des disponibilités réelles par notre équipe.</p></div>
   </div>
 </section>
 
-<!-- ============ POUR QUI ============ -->
-<section class="on-cream">
+<!-- ============ INFOS PRATIQUES + FAQ ============ -->
+<section>
   <div class="section-head reveal">
-    <div class="eyebrow">Pour qui</div>
-    <h2>Une solution pour chaque type d'événement</h2>
+    <div class="eyebrow">Avant de commencer</div>
+    <h2>Informations pratiques</h2>
   </div>
-  <div class="logi-grid">
-    <div class="logi-card reveal">
-      <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M14.5 14.2c2.4.3 4.5 2.4 4.5 5.8"/></svg></div>
-      <h3>Particuliers</h3>
-      <p>Mariages, anniversaires, réceptions familiales.</p>
+  <div class="info-grid">
+    <div class="info-card reveal">
+      <h4>Ramassage ou livraison</h4>
+      <p>Ramassage sur place à Sherbrooke, ou livraison selon votre emplacement et nos disponibilités. Les frais de livraison vous sont confirmés dans votre soumission.</p>
     </div>
-    <div class="logi-card reveal reveal-delay-1">
-      <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 8h2M9 12h2M9 16h2M14 8h1M14 12h1M14 16h1"/></svg></div>
-      <h3>Entreprises</h3>
-      <p>Événements corporatifs, lancements, formations.</p>
+    <div class="info-card reveal reveal-delay-1">
+      <h4>Comment fonctionne une demande</h4>
+      <p>Chaque demande est une demande de soumission, pas une réservation. Notre équipe vérifie la disponibilité réelle avant de confirmer un prix final.</p>
     </div>
-    <div class="logi-card reveal reveal-delay-2">
-      <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg></div>
-      <h3>Organismes</h3>
-      <p>Activités communautaires et collectes de fonds.</p>
-    </div>
-    <div class="logi-card reveal">
-      <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v4M9 9h6l1 12H8z"/><path d="M8 13h8"/></svg></div>
-      <h3>Églises</h3>
-      <p>Célébrations, rassemblements et événements religieux.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ============ BANDE COMMERCIALE ============ -->
-<section class="commercial">
-  <div class="commercial-grid">
-    <div class="commercial-copy reveal">
-      <div class="eyebrow">906 Réceptions</div>
-      <h2>Votre événement mérite les bons équipements.</h2>
-      <p>Des réceptions privées aux événements professionnels, trouvez le matériel et la mise en scène nécessaires pour accueillir vos invités.</p>
-      <div style="margin-top:8px">
-        <a class="btn" href="/catalogue">Découvrir le catalogue</a>
-      </div>
-    </div>
-    <div class="commercial-photo reveal reveal-delay-1"></div>
-  </div>
-</section>
-
-<!-- ============ FAQ ============ -->
-<section class="on-ink2">
-  <div class="section-head">
-    <div class="eyebrow">Questions fréquentes</div>
-    <h2>906 Réceptions à Sherbrooke</h2>
   </div>
   <div class="faq">
     <details>
       <summary>Dois-je recevoir chez Salle 906 pour utiliser vos services ?</summary>
-      <p>Non. 906 Réceptions est un service indépendant — vous pouvez organiser votre événement dans le lieu de votre choix et louer uniquement le matériel ou la décoration dont vous avez besoin.</p>
+      <p>Non. 906 Réceptions est un service indépendant — vous pouvez organiser votre événement dans le lieu de votre choix.</p>
     </details>
     <details>
-      <summary>Quelle est la différence entre une demande et une réservation ?</summary>
-      <p>Chaque demande envoyée via ce site est une demande de soumission. Notre équipe vérifie la disponibilité réelle avant de confirmer quoi que ce soit — aucun prix ni aucune disponibilité n'est garanti avant cette confirmation.</p>
+      <summary>Quand vais-je connaître le prix exact ?</summary>
+      <p>Après l'envoi de votre demande, notre équipe vérifie la disponibilité réelle et vous transmet une soumission précise par courriel.</p>
     </details>
     <details>
       <summary>Puis-je combiner location d'équipements et décoration ?</summary>
-      <p>Oui. Vous pouvez envoyer une demande pour chaque service, et notre équipe coordonnera votre soumission globale.</p>
+      <p>Oui. Cochez l'option décoration dans le formulaire de soumission, ou envoyez une demande distincte depuis la page Décoration.</p>
     </details>
-  </div>
-</section>
-
-<section>
-  <div class="cta-block">
-    <h2 style="font-size:clamp(24px,3vw,32px)">Une question avant de faire votre demande ?</h2>
-    <p>Contactez notre équipe directement — nous répondons rapidement.</p>
-    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
-      <a class="btn" href="tel:+18196789242">(819) 678-9242</a>
-      <a class="btn-outline" href="mailto:reservations@salle906galtest.ca">Nous écrire</a>
-    </div>
   </div>
 </section>
 
 <footer>
-  <div>906 Réceptions — une marque de Salle 906 Galt Est, Sherbrooke, QC · <a href="tel:+18196789242">(819) 678-9242</a> · <a href="mailto:reservations@salle906galtest.ca">reservations@salle906galtest.ca</a></div>
-  <div style="margin-top:16px">
-    <a href="/">Accueil</a>·<a href="/catalogue">Catalogue</a>·<a href="/decoration">Décoration</a>·<a href="/realisations">Réalisations</a>·<a href="/contact">Contact</a>
+  <div>906 Réceptions — une marque de <a href="https://salle906galtest.ca/">Salle 906 Galt Est</a>, Sherbrooke, QC · <a href="tel:+18196789242">(819) 678-9242</a> · <a href="mailto:reservations@salle906galtest.ca">reservations@salle906galtest.ca</a></div>
+  <div style="margin-top:14px">
+    <a href="/">Accueil</a>·<a href="/catalogue">Catalogue</a>·<a href="/decoration">Décoration</a>·<a href="/contact">Contact</a>
   </div>
 </footer>
 
+<script src="./equipment-catalog.js"></script>
 <script>
-const HERO_SLIDE_COUNT = 3;
-const HERO_INTERVAL_MS = 5000;
-let heroSlideIndex = 0;
-let heroTimer = null;
-function initHeroCarousel(){
-  const track = document.getElementById('hero-carousel');
-  const dotsEl = document.getElementById('hero-carousel-dots');
-  if (!track || !dotsEl) return;
-  const slides = track.querySelectorAll('.hc-slide');
-  if (slides.length < 2){ return; }
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  dotsEl.innerHTML = Array.from(slides).map((_, i) =>
-    `<button type="button" class="hc-dot${i === 0 ? ' is-active' : ''}" data-dot="${i}" role="tab" aria-selected="${i === 0}" aria-label="Photographie ${i + 1} sur ${slides.length}"></button>`
-  ).join('');
-  const dots = dotsEl.querySelectorAll('.hc-dot');
-  function goTo(i){
-    slides[heroSlideIndex].classList.remove('is-active');
-    dots[heroSlideIndex].classList.remove('is-active');
-    dots[heroSlideIndex].setAttribute('aria-selected', 'false');
-    heroSlideIndex = i;
-    slides[heroSlideIndex].classList.add('is-active');
-    dots[heroSlideIndex].classList.add('is-active');
-    dots[heroSlideIndex].setAttribute('aria-selected', 'true');
-  }
-  function next(){ goTo((heroSlideIndex + 1) % slides.length); }
-  function stopAuto(){ if (heroTimer){ clearInterval(heroTimer); heroTimer = null; } }
-  function startAuto(){ if (reduceMotion) return; stopAuto(); heroTimer = setInterval(next, HERO_INTERVAL_MS); }
-  dots.forEach(btn => btn.addEventListener('click', () => { goTo(parseInt(btn.dataset.dot, 10)); startAuto(); }));
-  dotsEl.addEventListener('mouseenter', stopAuto);
-  dotsEl.addEventListener('mouseleave', startAuto);
-  dotsEl.addEventListener('focusin', stopAuto);
-  dotsEl.addEventListener('focusout', startAuto);
-  startAuto();
+function formatCAD(n){ return Number(n).toLocaleString('fr-CA', { style:'currency', currency:'CAD' }); }
+function renderPreview(){
+  const el = document.getElementById('preview-grid');
+  const items = EQUIPMENT_ITEMS.filter(i => i.price != null).slice(0, 4);
+  el.innerHTML = items.map(i => `
+    <div class="pcard">
+      <div class="pcard-photo">
+        ${i.photo ? `<img src="${i.photo}" alt="${i.name}" loading="lazy" style="object-position:${i.photoPosition||'center'}" onerror="this.style.display='none'">` : ''}
+      </div>
+      <div class="pcard-body">
+        <h3>${i.name}</h3>
+        <div class="pcard-price">${formatCAD(i.price)}<small>${i.unit||''}</small></div>
+      </div>
+    </div>`).join('');
 }
-
+function renderCartCount(){
+  try {
+    const cart = JSON.parse(sessionStorage.getItem('eq906r_cart_v1') || '[]');
+    document.getElementById('cart-count').textContent = cart.reduce((n,c)=>n+c.qty,0);
+  } catch(e){}
+}
+const menuToggle = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+menuToggle.addEventListener('click', () => {
+  const open = mobileMenu.classList.toggle('is-open');
+  menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+});
 function initReveal(){
   const els = document.querySelectorAll('.reveal:not(.is-visible)');
   if (!('IntersectionObserver' in window)) { els.forEach(el => el.classList.add('is-visible')); return; }
   const io = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting){ entry.target.classList.add('is-visible'); io.unobserve(entry.target); }
-    });
+    entries.forEach(entry => { if (entry.isIntersecting){ entry.target.classList.add('is-visible'); io.unobserve(entry.target); } });
   }, { threshold:.15, rootMargin:'0px 0px -60px 0px' });
   els.forEach(el => io.observe(el));
 }
-
+renderPreview();
+renderCartCount();
 initReveal();
-initHeroCarousel();
 </script>
 </body>
 </html>
